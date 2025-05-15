@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta name="descripción" content="mi primera página">
         <title>inicio</title>
-        <link rel="icon"  href="images/senati.jpg">
+        <link rel="icon"  href="images/logo.png">
         <title>Formato</title>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="entre.css">
     </head>
     <body>
         <header>
-            <img src="images/senati.jpg" alt ="logo SENATI" width="300" height="300"> 
+            <img src="images/logo.png" alt ="logo LOGONI" width="300" height="300"> 
             <h1>BIENVENIDOS </h1>
         </header>
         <nav >      
@@ -33,45 +33,36 @@
         <li>
             <a href="index.html">Regresar</a>
         </li>
+        <li>
+            <a href="entregable.html">ir al entregable</a>
+        </li>
         
        </ul>
         </nav>
         <section>
-            <article>
-                <table>
-                    <thead>
-                      <tr>
-                        <th>Producto</th>
-                        <th>Cantidad</th>
-                        <th>Precio unitario</th>
-                        <th>Total</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Producto A</td>
-                        <td>2</td>
-                        <td>$10</td>
-                        <td>$20</td>
-                      </tr>
-                      <tr>
-                        <td>Producto B</td>
-                        <td>1</td>
-                        <td>$25</td>
-                        <td>$25</td>
-                      </tr>
-                    </tbody>
-                    <tfoot>
-                      <tr>
-                        <td colspan="3">Total general</td>
-                        <td>$45</td>
-                      </tr>
-                    </tfoot>
-                  </table>
+        
+        </section>
+        <section>
+          <article>
+            <h1>Formulario de Contacto</h1>
 
+<form style="width: 400px; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
 
-            </article>
-            <aside> </aside>
+  <label for="email">Correo Electrónico:</label><br>
+  <input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+
+  <label for="telefono">Teléfono (opcional):</label><br>
+  <input type="tel" id="telefono" name="telefono" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+
+  <label for="mensaje">Mensaje:</label><br>
+  <textarea id="mensaje" name="mensaje" rows="4" cols="50" style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea><br><br>
+
+  <input type="submit" value="Enviar" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
+</form>
+
+          </article>
         </section>
        <footer>
         <p>© 2025 Todos los Derechos Reservados.</p>

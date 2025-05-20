@@ -15,10 +15,10 @@ document.getElementById("calcular").addEventListener("click",function(){
                     return a+b;
                 case "resta":
                     return a-b;
-                    case "multiplicacion":
-                        return a*b;
-                        case "divicion":
-                            return a/b;
+                case "multiplicacion":
+                     return a*b;
+                case "division":
+                     return a/b;
                             
                     default:
                             return "operacion invalida"

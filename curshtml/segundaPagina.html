@@ -1,22 +1,31 @@
 <!DOCTYPE html>
+
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="descripción" content="mi segunda página">
-        <title>inicio</title>
-        <link rel="icon"  href="images/senati.jpg">
-        <title>Pagina Formato</title>
-        <link rel="stylesheet" href="css/estilo.css">
-        <script src="js/ejercicio.js"></script>
-        
-    
-    </head>
-    
-    <body>
-        <header>
-            <img src="images/senati.jpg" alt ="logo SENATI" width="300" height="300"> 
-            <h1>BIENVENIDOS A MI SEGUNDA PAGINA WEB </h1>
-        </header>
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta name="descripción" content="mi primera página">
+
+    <title>inicio</title>
+
+    <link rel="icon" href="images/senati.jpg">
+
+    <script src="js/ejercicio.js" defer></script>
+
+    <link rel="stylesheet" href="CSS/estilo.css">
+
+
+
+  <body>
+
+    <header>
+
+      <img src="images/senati.jpg" alt="logo SENATI" width="550" height="300">
+      <h1>BIENVENIDOS A MI SEGUNDA PAGINA WEB </h1>
+      </header>
+
         <p>Un río de plata, entre flores desliza,
             su canto cristalino, despierta la calma.
             Los pájaros cantan, una dulce melodía,
@@ -26,9 +35,15 @@
             la brisa acaricia, con suave ternura.
             La primavera llega, con alas hermosas,
             llenando de vida, la tierra oscura.</p>
-        <nav >      
-       <ul id = "menu">
-        <li>
+
+
+
+ 
+
+    <nav>   
+
+      <ul id="menu">
+    <li>
             <a href="segundaPagina.html" target="_blank">Ir a Segunda Pagina</a>
         </li>
         <li>
@@ -41,39 +56,90 @@
             <a href="quintaPagina.html">Ir a la quinta Página</a>
         </li>
         <li>
+            <a href="sextaPagina.html">sexta Pagina</a>
+        </li>
+
+        <li>
+            <a href="setimaPagina.html">setima Pagina</a>
+
+        </li>
+        <li>
             <a href="index.html">Regresar</a>
         </li>
+       
+
+      </ul>
+
+    </nav>
+
+
+
+    <section>
+
+      <article>
+
+        <h2>Calculadora Básica con JS</h2>
+
+        <label for="numero1">Número 1</label>
+
+        <input type="number" id="numero1"><br>
+
+        <label for="numero2">Número 2</label>
+
+        <input type="number" id="numero2"><br>
+
+        <label for="operacion">Operación: </label>
+
+        <select id="operacion">
+
+          <option value="suma">Suma</option>
+
+          <option value="resta">Resta</option>
+
+          <option value="multiplicacion">Multiplicación</option>
+
+          <option value="division">División</option>
+
+        </select><br>
+
+        <button id="calcular">Calcular</button>
+
+        <p id="resultado"></p>
+
+
+
+        <hr>
+
+
+
+        <h2>calculadora con descuento</h2>
+
+ <label for="montoCompra">Monto total de la compra (S/.):</label>
+<input type="number" id="montoCompra" name="montoCompra"><br><br>
+
+<button onclick="calcularDescuento()">Calcular</button>
+
+<p id="totalSinDescuento"></p>
+<p id="descuentoAplicado"></p>
+<p id="totalAPagar"></p>
+
         
-       </ul>
-        </nav>
-        <section>
-            <article>
-                 <label for="numero1">Número 1</label>
-                <input type="number" id="numero1"><br>
-                <label for="numero2">Número 2</label>
-                <input type="number" id="numero2"><br>
-                <label for="operacion">operacion :</label>
-                <select id="operacion">
-                    <option value="suma">suma</option>
-                    <option value="resta">resta</option>
-                    <option value="multiplicacion">multiplicacion</option>
-                    <option value="divicion">divicion</option>
-                </select><br>
-                <button id="calcular">calcular</button>
-                <p id="resultado"></p>
 
-            </article>
-            <aside> 
+      <aside>
 
-            </aside>
 
-            </article>
-            <aside>
-                <p> piura</p> </aside>
-        </section>
-       <footer>
-        <p>© 2025 Todos los Derechos Reservados.</p>
-       </footer>
-      
-         </body>
+      </aside>
+
+    </section>
+
+
+
+    <footer>
+
+      <p>© 2025 Todos los Derechos Reservados.</p>
+
+    </footer>
+
+  </body>
+
 </html>

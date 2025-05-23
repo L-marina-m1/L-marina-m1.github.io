@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mi Tienda de Verduras</title>
-<link rel="stylesheet" href="css/entre.css">
+  <title>Frutas</title>
+  <link rel="stylesheet" href="css/frutas.css">
 </head>
-<body> 
-  <section>
-    <header>
-      <img src="images/logo.png" alt="looecomarket">
-      <h2>Comida saludable, vida sana</h2>
+<body> <header>
+  <img src="images/logo.png" alt="logo ecomarket">
+      <h1>Frutas</h1>
     </header>
-
-</section>
-
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="html.html">Inicio</a>
-  <a href="frutas.html">Frutas</a>
-  <a href="#">Contacto</a>
+   <nav >      
+       <ul id = "menu">
+        <li>
+            <a href="entregable.html">Regresar</a>
+        </li>
+        </ul>
+        </nav>
+  <div id="main-content">
+    <div class="product-grid"></div>
+    <div id="cart-summary">
+  <h3><img src="https://w7.pngwing.com/pngs/833/426/png-transparent-shopping-cart-icon-shopping-cart-black-design-trade-thumbnail.png" alt="Ícono del Carrito"> Carrito</h3>
+  <p>Cantidad: <span id="cart-count">0</span></p>
+  <p>Total: s/<span id="cart-total">0.00</span></p>
 </div>
 
-<span style="font-size:30px;cursor:pointer; position: fixed; top: 10px; left: 10px;" onclick="openNav()">&#9776;</span>
-
-<div id="product-grid"></div>
-  <div id="product-grid"></div>
-  <div id="controls">
-    <button id="prev-button">&lt;</button>
-    <button id="next-button">&gt;</button>
+<style>
+  #cart-summary h3 {
+    display: flex;
+    align-items: center;
+  }
+  #cart-summary h3 img {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+  }
+</style>
   </div>
-</div> <br>
-
-
-<div id="cart-summary">
-  <p>Carrito (<span id="cart-count">0</span>): $<span id="cart-total">0.00</span></p>
-</div>
-
-
-<script src="js/script.js"></script>
-
-<footer>
+  <script src="js/fruta.js"></script>
+  <footer>
   <div style="display: flex; align-items: center;">  <!-- Agrupa los logos en una línea -->
     <a href="https://www.yape.com.pe" target="_blank">
       <img src="https://marketing-peru.beglobal.biz/wp-content/uploads/2025/01/logo-yape-color-negro.png" alt="Yape" width="50" height="50" style="margin-right: 10px;">

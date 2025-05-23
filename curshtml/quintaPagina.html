@@ -11,7 +11,7 @@
     <body>
         <header>
             <img src="images/logo.png" alt ="logo LOGONI" width="300" height="300"> 
-            <h1>BIENVENIDOS </h1>
+            <h1>LIBRO DE RECLAMACIONES </h1>
         </header>
         <nav >      
        <ul id = "menu">
@@ -30,8 +30,11 @@
         <li>
             <a href="sextaPagina.html">Ir a la sexta Pagina</a>
         </li>
+         <li>
+            <a href="setimaPagina.html">ir a la setima Pagina</a>
+        </li>
         <li>
-            <a href="index.html">Regresar</a>
+            <a href="html.html">Regresar</a>
         </li>
         <li>
             <a href="entregable.html">ir al entregable</a>
@@ -44,23 +47,24 @@
         </section>
         <section>
           <article>
-            <h1>Formulario de Contacto</h1>
+           <body>
+     <h1>Libro de Reclamaciones</h1>
+    <form id="complaintForm">
+        <label for="nombre">Nombre completo:<span class="required">*</span></label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
 
-<form style="width: 400px; padding: 20px; border: 1px solid #ccc; border-radius: 5px;">
-  <label for="nombre">Nombre:</label><br>
-  <input type="text" id="nombre" name="nombre" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+        <label for="correo">Correo electrónico:<span class="required">*</span></label>
+        <input type="email" id="correo" name="correo" required><br><br>
 
-  <label for="email">Correo Electrónico:</label><br>
-  <input type="email" id="email" name="email" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+        <label for="telefono">Teléfono (opcional):</label>
+        <input type="tel" id="telefono" name="telefono"><br><br>
 
-  <label for="telefono">Teléfono (opcional):</label><br>
-  <input type="tel" id="telefono" name="telefono" style="width: 100%; padding: 10px; margin-bottom: 10px;"><br>
+        <label for="reclamo">Descripción del Reclamo:<span class="required">*</span></label>
+        <textarea id="reclamo" name="reclamo" rows="8" required></textarea><br><br>  <!-- Increased rows for larger textarea -->
 
-  <label for="mensaje">Mensaje:</label><br>
-  <textarea id="mensaje" name="mensaje" rows="4" cols="50" style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea><br><br>
-
-  <input type="submit" value="Enviar" style="background-color: #4CAF50; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer;">
-</form>
+        <button type="submit">Enviar Reclamo</button>
+    </form>
+    <script src="script.js"></script>
 
           </article>
         </section>
